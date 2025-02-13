@@ -70,8 +70,9 @@ https://github.com/user-attachments/assets/86716259-e910-4528-bbfe-55ea7f34884e
 I tried 3 version of VAEs, all of them combined with PointNet++ architecture. 
 This is the architecture ![Tokyo PP_VAE Architecture](https://github.com/user-attachments/assets/be2c2c51-1d47-488b-9821-8d7515cfbf1b)
 
+<br> 
 1) Classic VAE with Chamfers Distance and KL Divergence <br>
-The results: 
+The results (the red points are the input, green is the predicted output): 
 
 https://github.com/user-attachments/assets/1e2a93a4-bee0-45a6-882e-776aefc3ca94
 
@@ -86,3 +87,9 @@ The results:
 
 https://github.com/user-attachments/assets/43b276a2-5df0-4e72-b2d8-3127477169a0
 
+<br>
+To Dos and Observations:
+- We see that first model's output is very scattered, custom lost function in the 3rd helps us out, but not good enough. Modify the last layer to improve the point distribution. 
+- In the second model, we see that the model predicts a unit cube. Train models without standarization. 
+- Train models with data augmentation.
+- Make your model bigger if necessary.
