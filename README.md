@@ -1,10 +1,5 @@
 # Tokyo-PointCloud-PointNetpp-VAE
 Project is not closed, there will be improvements in the near future.
-Here's a useful method which should produce clickable references in any Markdown editor:
-
-At the end of each header, add an empty anchor with a chosen name — e.g. <a name="foo"></a>.
-At the start of the document, list the headers with a link to their anchors — e.g. [Foo](#foo).
-So this:
 
 # Table of contents
 1. [Data](##Data)
